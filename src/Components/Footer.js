@@ -28,10 +28,10 @@ const Footer = () => {
             <div className="footer-col">
                 <h4>working</h4>
                 <ul>
+                    <li><a href="#">SkyKgSolution</a></li>
                     <li><a href="#"></a></li>
-                    <li><a href="#">America</a></li>
-                    <li><a href="#">Malasia</a></li>
-                    <li><a href="#">friens</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
                 </ul>
             </div>
             <div className="footer-col">

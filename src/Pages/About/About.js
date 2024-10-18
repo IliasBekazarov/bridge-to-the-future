@@ -47,7 +47,7 @@ const About = () => {
         <div className="team-members">
           <div className="team-member">
             <h3>Ilias Baknazarov </h3>
-            <p>Web Deweloper</p>
+            <p>Web Developer</p>
           </div>
         </div>
       </section>

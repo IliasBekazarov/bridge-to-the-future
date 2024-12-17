@@ -1,31 +1,30 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
-import Home from './Pages/Home';
-import About from './Pages/About/About';
-import Students from './Pages/Students';
-import Test from './Pages/Test';
-import AboutMe from './Pages/AboutMe';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Students from "./Pages/Students/Students";
+import Test from "./Pages/Test";
+import "./App.css";
 
 const App = () => {
-    return (
-        <>
-        
-        <Navbar />
-            <div className="main-content">
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/students" element={<Students />} />
-                    <Route path="/test" element={<Test />} />
-                    <Route path="/aboutme" element={<AboutMe />} />
-                </Routes>
-            </div>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <div style={{ margin: 0, padding: 0 }} >
+        <Navbar/>
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/students" element={<Students />} />
+            <Route path="/test" element={<Test />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </>
+  );
 };
 
 export default App;
